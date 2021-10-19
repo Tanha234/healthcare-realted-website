@@ -1,24 +1,80 @@
-import logo from './logo.svg';
+
 import './App.css';
+
+import 'bootstrap/dist/css/bootstrap.min.css';
+
+import Home from './Components/Home/Home';
+import { BrowserRouter,Switch,Route } from 'react-router-dom';
+import Doctors from './Components/Doctors/Doctors';
+import Service from './Components/Service/Service';
+import Hedaer from './Components/Header/Hedaer';
+import About from './Components/About/About';
+import Login from './Components/Login/Login';
+import Appoinment from './Components/Appoinment/Appoinment';
+import Contact from './Components/Contact/Contact';
+import Footer from './Components/Footer/Footer';
+import AuthProvider from './Context/AuthProvider';
+import PageNotFound from './Components/PageNotFound/PageNotFound';
+import PrivateRoute from './Components/PrivateRoute/PrivateRoute';
+import Booking from './Components/Booking/Booking';
 
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      <AuthProvider>
+      
+     <BrowserRouter>
+     <Route>
+     <Hedaer/>
+     </Route>
+     <Switch>
+       <Route exact path="/">
+         <Home></Home>
+
+       </Route>
+       <Route exact path="/home">
+         <Home></Home>
+         
+
+       </Route>
+       <Route path="/about">
+           <About></About>
+           </Route>
+       <Route path="/doctors">
+         <Doctors></Doctors>
+       </Route>
+       <Route path="/service">
+         <Service></Service>
+
+       </Route>
+       <Route path="/login">
+         <Login></Login>
+
+       </Route>
+       <PrivateRoute path="/appointment">
+         <Appoinment></Appoinment>
+
+       </PrivateRoute>
+       <Route path="/booking/:serviceId">
+              <Booking></Booking>
+            </Route>
+       <Route path="/contact">
+         <Contact></Contact>
+       </Route>
+      
+     <Route path="/*">
+       <PageNotFound> </PageNotFound>
+
+     </Route>
+     </Switch>
+     <Route>
+       <Footer></Footer>
+     </Route>
+     
+     </BrowserRouter>
+     </AuthProvider>
     </div>
+   
   );
 }
 

@@ -1,0 +1,132 @@
+[
+    {
+      "id": 1,
+      "service_name": "MRI Scan",
+      "service_img": "https://www.spineuniverse.com/sites/default/files/imagecache/gallery-large/wysiwyg_imageupload/3998/2017/10/31/CT%20Scan%20222.jpg",
+      "cost":12000,
+      "doctor_img": "https://st3.depositphotos.com/10654668/i/600/depositphotos_138445604-stock-photo-male-doctor-in-hospital.jpg",
+      "doctor_name": "Dr.John Arora",
+     
+      "service_description":"Magnetic resonance imaging (MRI) is a type of scan that uses strong magnetic fields and radio waves to produce detailed images of the inside of the body. An MRI scanner is a large tube that contains powerful magnets.",
+      "specialist":"Cardiologist"
+      
+    },
+    {
+      "id": 2,
+      "service_name": " Ultasound Tech",
+      "service_img": "https://www.yourfreecareertest.com/wp-content/uploads/2016/07/Sonographer_ultrasound_tech.jpg",
+      "cost":3000,
+      "doctor_img": "https://image.freepik.com/free-photo/beautiful-female-doctor-white-coat-standing-arms-crossed-white-wall_114579-47701.jpg",
+      "doctor_name": "Dr. Rosy Shah",
+      
+      "specialist":"Gynecologist",
+      "service_description":"A diagnostic ultrasound technician uses specialized equipment to examine parts of the human body including the abdomen, reproductive systems, prostate, heart and blood vessels. Sonographers help physicians "
+      
+    },
+    {
+      "id": 3,
+      "service_name": "ECG",
+      "service_img": "https://st3.depositphotos.com/1662991/19439/i/600/depositphotos_194390766-stock-photo-hands-doctors-placing-ecg-electrodes.jpg",
+      "cost":5000,
+      "doctor_img": "https://t4.ftcdn.net/jpg/01/36/18/77/360_F_136187711_qeBMOwkPdTg1dCN8e5TR1AmduXDz60Xn.jpg",
+      "doctor_name": "Dr. Aressi Rahman",
+      "specialist":"Orthopedic",
+      "service_description":"An electrocardiogram (ECG) is a simple test that can be used to check your heart's rhythm and electrical activity. Sensors attached to the skin are used to detect the electrical signals produced by your heart each time "
+
+      
+    },
+    
+    {
+      "id": 5,
+      "service_name": "Diagonstic machine",
+      "service_img": "https://thumbs.dreamstime.com/b/medical-ultrasound-diagnostic-machine-laying-patient-53049103.jpg",
+      "cost":450,
+      "doctor_img": "https://t3.ftcdn.net/jpg/01/43/81/94/360_F_143819453_Eai3IbcXhhGGoCWY5lso1ijI9nH387yC.jpg",
+      "doctor_name": "Dr. Anant Desai",
+      "specialist":"Orthopedic",
+      "service_description":"The act of recognizing a disease from its signs and symptoms She specialized in the diagnosis and treatment of eye diseases. 2 : the conclusion that is reached following examination and testing The diagnosis was pneumonia."
+      
+    },
+    {
+      "id": 6,
+      "service_name": "X-ray",
+      "service_img": "https://image.freepik.com/free-photo/doctor-looking-chest-x-ray_23-2148285722.jpg",
+      "cost":600,
+      "doctor_img": "https://media.gettyimages.com/photos/female-doctor-smiling-over-white-background-picture-id1053401358?s=612x612",
+      "doctor_name": "Dr. Jenifer Winget",
+      "specialist":"Eye Specialist",
+      "service_description":"X-rays are a type of radiation called electromagnetic waves. X-ray imaging creates pictures of the inside of your body. The images show the parts of your body in different shades of black and white"
+     
+    },
+    {
+      "id": 4,
+      "service_name": "Eco",
+      "service_img": "https://thumbs.dreamstime.com/b/doctor-analyze-result-ultrasound-diagnostic-machine-young-beautiful-woman-working-usg-102474781.jpg",
+      "cost":1200,
+      "doctor_img": "https://image.freepik.com/free-photo/content-young-female-doctor-posing-camera_1262-18213.jpg",
+      "doctor_name": "Dr. Erica Ferandaz",
+      "specialist":"Eye Specialist",
+      "service_description":"An echocardiogram, or echo, is a scan used to look at the heart and nearby blood vessels. It's a type of ultrasound scan, which means a small probe is used to send out high-frequency sound waves that create echoes "
+      
+      
+    },
+    {"id":7,
+    "service_name":"Blood Test",
+    "service_img":"https://media.labcompare.com/m/1/category/25056-400x300.jpg",
+    "service_description":"A test done on a sample of blood to measure the amount of certain substances in the blood or to count different types of blood cells. Blood tests may be done to look for signs of disease.",
+    "cost":300,
+    "doctor_img":"https://media.istockphoto.com/photos/doctor-holding-digital-tablet-at-meeting-room-picture-id1189304032?k=20&m=1189304032&s=612x612&w=0&h=ovTNnR0JX2cRZkzMBed9exRO_PamZLlysLDFkXesr4Q=",
+    "doctor_name":"Dr.Jhuti Shah",
+    "specialist":"Neurologist"
+},
+
+   { "id":8,
+    "service_name":"Angiography",
+    "service_img":"https://i.ytimg.com/vi/kY5gKdFWT3k/hqdefault.jpg",
+    "service_description":"Angiography is a type of X-ray used to check blood vessels.Blood vessels do not show clearly on a normal X-ray, so a special dye needs to be injected into your blood first. This highlights your blood vessels, allowing your doctor",
+    "cost":7000,
+    "doctor_img":"https://img.freepik.com/free-photo/portrait-smiling-handsome-male-doctor-man_171337-5055.jpg?size=626&ext=jpg",
+    "doctor_name":"Dr.Rahul Tripati",
+    "specialist":"Orthopedic"
+},
+
+   { "id":9,
+    "service_name":"Myelograpghy",
+    "service_img":"https://img1.wsimg.com/isteam/ip/c247e116-1ade-419d-ac57-ed027d73ff5c/CT-0001.jpg/:/cr=t:0%25,l:0%25,w:100%25,h:100%25/rs=w:1280",
+    "service_description":"A myelogram is a diagnostic imaging test generally done by a radiologist. It uses a contrast dye and X-rays or computed tomography (CT) to look for problems in the spinal canal.A special dye is injected into the spinal canal.",
+    "cost":6000,
+    "doctor_img":"https://cdn.crello.com/api/media/small/218007446/stock-photo-side-view-male-doctor-stethoscope",
+    "doctor_name":"Dr.Abdul Binte Shah",
+    "specialist":"Cardiologist"
+},
+    {"id":10,
+    "service_name":" Lung ventilation",
+    "service_img":"https://images.medicinenet.com/images/article/main_image/covid-19-ventilator2.jpg",
+    "service_description":"Pulmonary ventilation is commonly referred to as breathing. It is the process of air flowing into the lungs during inspiration (inhalation) and out of the lungs during expiration (exhalation). Air flows because of pressure .",
+    "cost":2200,
+    "doctor_img":"https://image.shutterstock.com/image-photo/smiling-female-doctor-lab-coat-260nw-1473042992.jpg",
+    "doctor_name":"Dr.Kajol Tripati",
+     "specialist":"Gynecologist"
+},
+    {"id":11,
+    "service_name":" Cholecystograpghy",
+    "service_img":"https://post.healthline.com/wp-content/uploads/2020/08/radiologist_patient_xray-732x549-thumbnail.jpg",
+    "service_description":"A cholecystogram is an x-ray procedure used to help evaluate the gallbladder. For the procedure, a special diet is consumed prior to the test and contrast tablets",
+    "cost":3400,
+    "doctor_img":"https://thumbs.dreamstime.com/b/outdoor-portrait-male-doctor-wearing-white-lab-coat-smiling-to-camera-35801901.jpg",
+    "doctor_name":"Dr.Shaan Kumar",
+    "specialist":"Gynecologist"
+},
+   {"id":12,
+    "service_name":"Pernatal Testing",
+    "service_img":"https://cdn.thomasnet.com/insights-images/embedded-images/e9eae3e3-fb46-431b-8483-746fd5c9ba0e/9ecd580b-7684-43b8-b6a1-9f1e1c6b013f/FullHD/fig1.jpg",
+    "service_description":"Prenatal tests are medical tests you get during pregnancy. They help your health care provider find out how you and your baby are doing. You get some prenatal tests several times during pregnancy at your prenatal care checkups..",
+    "cost":1200,
+    "doctor_img":"https://us.123rf.com/450wm/mangostar/mangostar1901/mangostar190100529/115484058-content-young-female-doctor-posing-at-camera-pretty-woman-wearing-white-coat-and-standing-medicine-a.jpg?ver=6",
+    "doctor_name":"Dr.Sania Mirza",
+    "specialist":"Neurologist"
+}
+
+
+    
+  ]

@@ -1,0 +1,15 @@
+.banner{
+   background-image: url("https://i.pinimg.com/originals/36/42/29/3642291603d80cbf90ee7421ba227a8b.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 600px;
+    width: 100%;
+}
+.heading{
+
+font-family: cursive;
+color:rgb(78, 78, 206);
+font-weight: 400;
+font-size: 50px;
+
+}

@@ -1,0 +1,22 @@
+.service-card:hover{
+    
+    background-color: rgba(86, 86, 88, 0.397);
+   
+}
+.service-card{
+    margin-top: 20px;
+    border-radius: 10px;
+    background-color:rgba(231, 231, 218, 0.356);
+ 
+ 
+  
+
+ 
+  
+  box-shadow: 1px 2px 2px 2px  rgba(9, 78, 228, 0.459);
+}
+
+.service-title{
+    font-family: cursive;
+    color: rgba(0, 0, 139, 0.664);
+}

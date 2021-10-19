@@ -1,0 +1,67 @@
+[
+    {
+      "id": 1,
+      "service_name": "MRI Scan",
+      "service_img": "https://www.spineuniverse.com/sites/default/files/imagecache/gallery-large/wysiwyg_imageupload/3998/2017/10/31/CT%20Scan%20222.jpg",
+      "service_description":"Magnetic resonance imaging (MRI) is a type of scan that uses strong magnetic fields and radio waves to produce detailed images of the inside of the body. An MRI scanner is a large tube that contains powerful magnets.",
+      "doctor_img": "https://st3.depositphotos.com/10654668/i/600/depositphotos_138445604-stock-photo-male-doctor-in-hospital.jpg",
+      "doctor_name": "Dr.John Arora",
+      "cost":6000
+      
+    },
+    {
+      "id": 2,
+      "service_name": " Ultasound Tech",
+      "service_img": "https://www.yourfreecareertest.com/wp-content/uploads/2016/07/Sonographer_ultrasound_tech.jpg",
+      "service_description":"A diagnostic ultrasound technician uses specialized equipment to examine parts of the human body including the abdomen, reproductive systems, prostate, heart and blood vessels. Sonographers help physicians ",
+      "doctor_img": "https://image.freepik.com/free-photo/beautiful-female-doctor-white-coat-standing-arms-crossed-white-wall_114579-47701.jpg",
+      "doctor_name": "Dr. Rosy Shah",
+      "cost":4000
+      
+    },
+    {
+      "id": 3,
+      "service_name": "ECG",
+      "service_img": "https://st3.depositphotos.com/1662991/19439/i/600/depositphotos_194390766-stock-photo-hands-doctors-placing-ecg-electrodes.jpg",
+      "doctor_img": "https://t4.ftcdn.net/jpg/01/36/18/77/360_F_136187711_qeBMOwkPdTg1dCN8e5TR1AmduXDz60Xn.jpg",
+      "doctor_name": "Dr. Aressi Rahman",
+      "cost":1000,
+      "service_description":"An electrocardiogram (ECG) is a simple test that can be used to check your heart's rhythm and electrical activity. Sensors attached to the skin are used to detect the electrical signals produced by your heart each time "
+      
+    },
+    
+    {
+      "id": 5,
+      "service_name": "Diagonstic machine",
+      "service_img": "https://thumbs.dreamstime.com/b/medical-ultrasound-diagnostic-machine-laying-patient-53049103.jpg",
+      "doctor_img": "https://t3.ftcdn.net/jpg/01/43/81/94/360_F_143819453_Eai3IbcXhhGGoCWY5lso1ijI9nH387yC.jpg",
+      "doctor_name": "Dr. Anant Desai",
+      "cost":2000,
+      "service_description":"The act of recognizing a disease from its signs and symptoms She specialized in the diagnosis and treatment of eye diseases. 2 : the conclusion that is reached following examination and testing The diagnosis was pneumonia."
+      
+    },
+    {
+      "id": 6,
+      "service_name": "X-ray",
+      "service_img": "https://image.freepik.com/free-photo/doctor-looking-chest-x-ray_23-2148285722.jpg",
+      "doctor_img": "https://media.gettyimages.com/photos/female-doctor-smiling-over-white-background-picture-id1053401358?s=612x612",
+      "doctor_name": "Dr. Jenifer Winget",
+      "cost":1500,
+      "service_description":"X-rays are a type of radiation called electromagnetic waves. X-ray imaging creates pictures of the inside of your body. The images show the parts of your body in different shades of black and white"
+     
+    },
+    {
+      "id": 4,
+      "service_name": "Eco",
+      "service_img": "https://thumbs.dreamstime.com/b/doctor-analyze-result-ultrasound-diagnostic-machine-young-beautiful-woman-working-usg-102474781.jpg",
+      "doctor_img": "https://image.freepik.com/free-photo/content-young-female-doctor-posing-camera_1262-18213.jpg",
+      "doctor_name": "Dr. Erica Ferandaz",
+      "cost":500,
+      "service_description":"An echocardiogram, or echo, is a scan used to look at the heart and nearby blood vessels. It's a type of ultrasound scan, which means a small probe is used to send out high-frequency sound waves that create echoes "
+      
+    }
+    
+
+
+    
+  ]
