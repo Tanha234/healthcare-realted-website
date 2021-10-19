@@ -58,9 +58,9 @@ function App() {
        <Route path="/booking/:serviceId">
               <Booking></Booking>
             </Route>
-       <Route path="/contact">
+       <PrivateRoute path="/contact">
          <Contact></Contact>
-       </Route>
+       </PrivateRoute>
       
      <Route path="/*">
        <PageNotFound> </PageNotFound>

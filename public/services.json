@@ -33,7 +33,7 @@
     {
       "id": 5,
       "service_name": "Diagonstic machine",
-      "service_img": "https://thumbs.dreamstime.com/b/medical-ultrasound-diagnostic-machine-laying-patient-53049103.jpg",
+      "service_img": "https://st3.depositphotos.com/1290955/i/600/depositphotos_357743880-stock-photo-test-tube-male-hand-doctor.jpg",
       "doctor_img": "https://t3.ftcdn.net/jpg/01/43/81/94/360_F_143819453_Eai3IbcXhhGGoCWY5lso1ijI9nH387yC.jpg",
       "doctor_name": "Dr. Anant Desai",
       "cost":2000,
@@ -53,7 +53,7 @@
     {
       "id": 4,
       "service_name": "Eco",
-      "service_img": "https://thumbs.dreamstime.com/b/doctor-analyze-result-ultrasound-diagnostic-machine-young-beautiful-woman-working-usg-102474781.jpg",
+      "service_img": "https://vaishnaviheartcentre.com/wp-content/uploads/2019/05/2D-Echo.jpg",
       "doctor_img": "https://image.freepik.com/free-photo/content-young-female-doctor-posing-camera_1262-18213.jpg",
       "doctor_name": "Dr. Erica Ferandaz",
       "cost":500,
