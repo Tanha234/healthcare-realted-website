@@ -28,11 +28,11 @@ const Hedaer = () => {
                 <NavLink to="/doctors"  className="nav-item me-3">Doctors</NavLink>
                 <NavLink to="/appointment"  className="nav-item me-3">Appointment</NavLink>
                 <NavLink to="/contact"  className="nav-item me-3">Contact</NavLink> 
-                 <NavLink to="/login"  className="nav-item me-3">Login</NavLink>
+                 <NavLink to="/login"  className="nav-item me-3 ps-3">Login</NavLink>
                  <span>{user.displayName}</span>
                 
                  {
-                   user.email && <Button onClick={logOut}>Logout</Button>
+                   user.email && <Button variant="secondary" className="ms-5" onClick={logOut}>Logout</Button>
                  }
                  
               </div>
