@@ -16,7 +16,7 @@ const Booking = () => {
         arr.id===serviceId)
         console.log(temp)
     return (
-        <div>
+        <div className="login">
             <h2>this is booking: {serviceId}</h2>
        {/* <h1>{serviceId.service_name}</h1> */}
             
