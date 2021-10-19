@@ -40,26 +40,25 @@
       "service_description":"The act of recognizing a disease from its signs and symptoms She specialized in the diagnosis and treatment of eye diseases. 2 : the conclusion that is reached following examination and testing The diagnosis was pneumonia."
       
     },
-    {
-      "id": 6,
-      "service_name": "X-ray",
-      "service_img": "https://image.freepik.com/free-photo/doctor-looking-chest-x-ray_23-2148285722.jpg",
-      "doctor_img": "https://media.gettyimages.com/photos/female-doctor-smiling-over-white-background-picture-id1053401358?s=612x612",
-      "doctor_name": "Dr. Jenifer Winget",
-      "cost":1500,
-      "service_description":"X-rays are a type of radiation called electromagnetic waves. X-ray imaging creates pictures of the inside of your body. The images show the parts of your body in different shades of black and white"
-     
-    },
-    {
-      "id": 4,
-      "service_name": "Eco",
-      "service_img": "https://vaishnaviheartcentre.com/wp-content/uploads/2019/05/2D-Echo.jpg",
-      "doctor_img": "https://image.freepik.com/free-photo/content-young-female-doctor-posing-camera_1262-18213.jpg",
-      "doctor_name": "Dr. Erica Ferandaz",
-      "cost":500,
-      "service_description":"An echocardiogram, or echo, is a scan used to look at the heart and nearby blood vessels. It's a type of ultrasound scan, which means a small probe is used to send out high-frequency sound waves that create echoes "
-      
-    }
+    
+    { "id":9,
+      "service_name":"Myelograpghy",
+      "service_img":"https://img1.wsimg.com/isteam/ip/c247e116-1ade-419d-ac57-ed027d73ff5c/CT-0001.jpg/:/cr=t:0%25,l:0%25,w:100%25,h:100%25/rs=w:1280",
+      "service_description":"A myelogram is a diagnostic imaging test generally done by a radiologist. It uses a contrast dye and X-rays or computed tomography (CT) to look for problems in the spinal canal.A special dye is injected into the spinal canal.",
+      "cost":6000,
+      "doctor_img":"https://cdn.crello.com/api/media/small/218007446/stock-photo-side-view-male-doctor-stethoscope",
+      "doctor_name":"Dr.Abdul Binte Shah",
+      "specialist":"Cardiologist"
+  },
+  {"id":11,
+    "service_name":" Cholecystograpghy",
+    "service_img":"https://post.healthline.com/wp-content/uploads/2020/08/radiologist_patient_xray-732x549-thumbnail.jpg",
+    "service_description":"A cholecystogram is an x-ray procedure used to help evaluate the gallbladder. For the procedure, a special diet is consumed prior to the test and contrast tablets",
+    "cost":3400,
+    "doctor_img":"https://thumbs.dreamstime.com/b/outdoor-portrait-male-doctor-wearing-white-lab-coat-smiling-to-camera-35801901.jpg",
+    "doctor_name":"Dr.Shaan Kumar",
+    "specialist":"Gynecologist"
+  }
     
 
 
