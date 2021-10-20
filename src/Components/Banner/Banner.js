@@ -12,7 +12,7 @@ const Banner = () => {
             </div>
  <div className="col-md-6 pt-5 mt-5">
  <h1 className="mx-auto pt-5 pe-5 heading">MedicalPoint Diagonostic Center</h1> 
- <h5 className="pt-4">Its our duty to serve you the best.And give best service in your worst times </h5>
+ <p className="pt-5">The fundamental activity of medical science is to determine the ultimate causation of disease.Our is making such remarkable progress that soon none of us will be well.</p>
 
             </div>
             

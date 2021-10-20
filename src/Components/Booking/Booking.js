@@ -16,8 +16,8 @@ const Booking = () => {
 
     
     return (
-        <div className="login col-md-12">
-               <h3 className="mt-5">Nam: {detail[serviceId-1]?.service_name}</h3>
+        <div className=" col-md-12 doctors-part">
+               <h3 className="pt-5">Nam: {detail[serviceId-1]?.service_name}</h3>
             <div>
             {
            
@@ -25,7 +25,8 @@ const Booking = () => {
             
             }
             </div>
-            <p>{detail[serviceId-1]?.service_description}</p>
+            <p className="p-1">Cost:${detail[serviceId-1]?.cost}</p>
+            <p className="pb-5 px-5 pb-5">{detail[serviceId-1]?.service_description}</p>
     
             
             
