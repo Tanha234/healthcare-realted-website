@@ -5,20 +5,33 @@ const Booking = () => {
     const { serviceId } = useParams();
 
     const[service,setService]=useState([]);
+    const[services,setServices]=useState([])
     useEffect(()=>{
 
-        fetch('./services.json')
+        fetch('/services.json')
         .then(res=>res.json())
-        .then(json=>console.log(json))
+        .then(json=>{
+            setServices(json);
+            const servicesDetails=services.filter(service=>service.id===serviceId)
+            setService(servicesDetails);
+            console.log(service)
+        })
+        
 
-    },{})
-    const temp=service.filter(arr=>
-        arr.id===serviceId)
-        console.log(temp)
+    },[services])
+    
+       
+    
     return (
         <div className="login">
-            <h2>this is booking: {serviceId}</h2>
-       {/* <h1>{serviceId.service_name}</h1> */}
+            
+            {/* /* <h2>this is booking: {serviceId}</h2> */} 
+            
+                <h2>Thsi{services.service_name}</h2>
+            
+
+    
+            
             
         </div>
     );
