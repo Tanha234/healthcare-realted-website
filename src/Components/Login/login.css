@@ -1,3 +1,7 @@
 .login{
     height:80vh
 }
+.login-page{
+    height:100vh;
+    background-color: rgb(148, 145, 142);
+}
