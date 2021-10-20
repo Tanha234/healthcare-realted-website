@@ -1,40 +1,35 @@
+
 import React, { useEffect,useState } from 'react';
 import { useParams } from 'react-router-dom';
 
 const Booking = () => {
     const { serviceId } = useParams();
 
-    const[service,setService]=useState([]);
-    const[services,setServices]=useState([])
-    useEffect(()=>{
+    const [detail, setDetail] = useState([]);
 
+    useEffect(() => {
         fetch('/services.json')
-        .then(res=>res.json())
-        .then(json=>{
-            setServices(json);
-            const servicesDetails=services.filter(service=>service.id===serviceId)
-            setService(servicesDetails);
-            console.log(service)
-        })
-        
+            .then(res => res.json())
+            .then(data => setDetail(data))
 
-    },[services])
-    
-       
+    }, [])
+
     
     return (
-        <div className="login">
+        <div className="login col-md-12">
+               <h3 className="mt-5">Nam: {detail[serviceId-1]?.service_name}</h3>
+            <div>
+            {
+           
+                <img className="w-25" src={detail[serviceId-1]?.service_img} alt=""/>
             
-            {/* /* <h2>this is booking: {serviceId}</h2> */} 
-            
-                <h2>Thsi{services.service_name}</h2>
-            
-
+            }
+            </div>
+            <p>{detail[serviceId-1]?.service_description}</p>
     
             
             
         </div>
     );
 };
-
 export default Booking;
