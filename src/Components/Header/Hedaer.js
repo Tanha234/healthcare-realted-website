@@ -30,7 +30,7 @@ const Hedaer = () => {
                 <NavLink to="/contact"  className="nav-item me-3">Contact</NavLink> 
                  <NavLink to="/login"  className="nav-item me-3 ps-3">Login</NavLink>
                  <span>{user.displayName}</span>
-                 <img src={user.photoURL}alt=""/>
+                 
                 
                  {
                    user.email && <Button variant="secondary" className="ms-5" onClick={logOut}>Logout  <i className="fas fa-arrow-right"></i></Button>
