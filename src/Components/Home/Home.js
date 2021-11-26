@@ -9,6 +9,7 @@ import Specialits from '../Specialits/Specialits';
 const Home = () => {
     return (
         <div className="bg-grey">
+            <h3>hello</h3>
             <Banner/>
             <History></History>
             <Services></Services>
